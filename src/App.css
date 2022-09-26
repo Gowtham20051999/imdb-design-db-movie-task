@@ -1,0 +1,224 @@
+/* .App{
+  padding:30px;
+  
+} */
+.toolBar{
+  display: flex;
+  justify-content: space-between;
+}
+.movieList{
+  display : grid;
+  grid-auto-flow: row;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  grid-gap: 30px;
+  padding:30px;
+}
+.movieCard {
+  width: 340px;
+  /* height : min-content !important; */
+}
+
+.card{
+  height: fit-content;
+}
+.movieImage{
+  width:340px;
+  height:550px;
+  object-fit: cover;
+}
+.movieName{
+  font-weight: bold;
+  font-size: 24px;
+
+  align-items: center;
+  display: grid;
+  grid-auto-flow: column;
+  /* grid-column-gap: 8px; */
+}
+.movieCredentials{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.movieRating{
+  font-size: 18px;;
+}
+.cardActionsMovieCard{
+  display: flex !important;
+  justify-content: space-between;
+}
+.counterContainer{
+  display: flex;
+  /* gap : 10px; */
+  /* margin-top: 8px; */
+}
+/* .likeButton, .dislikeButton{
+  font-size: 18px;
+  fill: gold !important;
+} */
+.formSection{
+  display : flex;
+  flex-direction: column;
+  gap:10px;
+  padding:24px;
+}
+.name-input{
+  display : block;
+}
+.movieDetailsContainer{
+  padding:16px !important;
+}
+.movieCredentialsContainer{
+  max-width: 900px;
+}
+.colorGame{
+  padding:16px;
+}
+.addColorEnclosure{
+  display : flex;
+  align-items: center;
+}
+.addColorButton{
+  margin: 10px !important;
+}
+.addColorField{
+  color:black;
+}
+
+.likeEnclosure{
+  margin-right: 10px !important;
+}
+
+.tictactoe{
+  padding:20px;
+  max-width: 100vw;
+  display: grid;
+  justify-content: center;
+}
+.tictactoe h1 {
+  margin: 0 0 25px 0 !important;
+  text-align: center;
+}
+.board{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: min-content;
+}
+.gameWrapper {
+  display: grid;
+  gap:20px;
+  width : fit-content; 
+}
+
+.boardEnclosure{
+  display: grid;
+  gap:20px;
+  width : 100%; 
+}
+.xGameBox,
+.oGameBox {
+  width:150px;
+  height: 150px;
+  font-size: 150px;
+  display : flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
+  background-color: white;
+  color:black;
+}
+
+.xGameBox {
+  color: green;
+}
+
+.oGameBox {
+  color: darkblue;
+}
+
+.oGameBox:hover,
+.xGameBox:hover {
+  background-color: lavenderblush;
+}
+
+.playerBox{
+  display : flex;
+  justify-content: space-around;
+  width:100%;
+}
+
+.player1Box {
+  background-color:  green !important;
+  width:max-content;
+}
+
+.player2Box {
+  background-color: darkblue !important;
+  width:max-content;
+}
+
+.player{
+  padding : 8px;
+  font-weight: bold;
+}
+
+.playerDetailsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap : 20px;
+  max-width: fit-content;
+}
+
+
+
+.formEnclosure{
+  display: flex;
+  flex-direction: column;
+  gap : 20px;
+  /* max-width: fit-content; */
+}
+
+.playGame {
+  width: fit-content;
+}
+
+.reset {
+  display: flex;
+  justify-content: center;
+}
+
+.resultDark,
+.resultLight {
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+}
+
+.resultDark :first-child {
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+}
+
+.resultLight :first-child {
+  font-size: 50px;
+  color: black;
+  font-weight: bold;
+}
+
+.sucessBackground {
+  background-color: greenyellow !important;
+}
+
+.buttonSet{
+  display:flex;
+  justify-content: space-between;
+  width : 100%; 
+  margin-bottom: 20px;
+}
+
+/* .MuiFormHelperText-root {
+  color:rgba(255,0,0,0.5) !important;
+} */
